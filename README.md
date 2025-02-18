@@ -6,6 +6,7 @@ This tool automates the deployment of a GitHub repository by generating necessar
 - Generate a Dockerfile and docker-compose.yml tailored for the repository.
 - Configure GitHub Actions for automated deployment.
 - Deploy the repository onto a server with minimal user intervention.
+- Configure Nginx for the same
 
 ## Features
 - Automated Docker setup by analyzing the repository and generating a suitable configuration.
@@ -13,8 +14,6 @@ This tool automates the deployment of a GitHub repository by generating necessar
 - One-click deployment to a designated server.
 - Custom configuration support, allowing users to specify environment variables, secrets, and runtime configurations.
 - Multi-service support for repositories containing multiple components such as backend, frontend, and databases.
-- Webhook integration to automatically redeploy applications when new commits are pushed.
-- Optional server provisioning for deployment on cloud platforms such as AWS and DigitalOcean.
 - Logging and monitoring capabilities for deployed applications.
 - Support for various deployment environments including development, staging, and production.
 
