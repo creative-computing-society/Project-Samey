@@ -1,0 +1,12 @@
+root = "."  
+tmp_dir = "tmp"
+
+[build]
+  bin = "tmp/main"
+  cmd = "go build -o tmp/main main.go"
+  include_ext = ["go"]
+  exclude_dir = ["vendor", "node_modules"]
+  delay = 1000
+
+[log]
+  level = "debug"
